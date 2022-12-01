@@ -1,0 +1,85 @@
+
+
+
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    height: 100px;
+    text-align: left;
+    background: #2F4F4F;
+    color: white;
+    font-size: 20px;
+    font-family:  Arial, sans-serif;
+    padding-left: 5px;
+  
+    }
+  
+  .linha{
+  background: #708090;
+  display: block;
+    padding: 10px;
+    width: auto;
+    background: #708090;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  nav{
+    text-align: center;
+  }
+  
+  
+  .pagina{
+	margin-left: 10px;
+	text-align: left;
+	color: black;
+	background: #D3D3D3;
+
+}
+  
+body{
+  margin: 0px;
+  background: #DCDCDC;
+   max-width: 100%;
+overflow-x: hidden;
+  
+}
+
+  a {
+    position: relative;
+    color: white;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  a:hover {
+	 color: black;
+	 text-decoration: none;
+   top: -3px;
+}
+
+.rodape{       
+  display: block;
+  position: absolute;
+  width: 100%;
+  color: white;
+  height: auto;
+  background: #2F4F4F;
+  top: 700px;
+  height:100px; 
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-left: -20px;
+  text-align: center;
+  }
+
+  .icon{
+    height: 35px;
+    align-self: start;
+    vertical-align: middle;
+}

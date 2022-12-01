@@ -1,0 +1,360 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    height: 100px;
+    text-align: left;
+    background: #002e5d;
+    color: white;
+    font-size: 20px;
+    font-family:  Arial, sans-serif;
+    padding-left: 5px;
+  
+    }
+    
+    .linha{
+    display: block;
+    padding: 10px;
+    width: auto;
+    background: CornflowerBlue;
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+    
+    nav {
+        text-align: center;
+
+    }
+    
+    .pagina{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      text-align: left;
+      color: black;
+      font-family: Roboto, sans-serif;
+      font-size:24px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+
+    body{
+        margin: 0px;
+        background: #DCDCDC;
+         max-width: 100%;
+    overflow-x: hidden;
+        
+  }
+  
+  a {
+    position: relative;
+    color: white;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  a:hover {
+    top: -3px;
+	 color: #002e5d;
+	 text-decoration: none;
+}
+  
+.a2 {
+    color: white;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      margin:0;
+  }
+
+h1 {
+    color: darkblue;
+    font-family:  'Roboto', sans-serif;
+  padding-left: 10px;
+  vertical-align: middle;
+  padding-top: 10px;
+   text-shadow:
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 15px #fff,
+		0 0 21px #0fa,
+    0 0 41px #0fa,
+    0 0 46px #0fa,
+    0 0 51px #0fa,
+    0 0 75px #0fa;
+      
+		animation: flicker 1.5s infinite alternate;  
+}
+
+  @keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 9px #fff,
+      0 0 20px #0fa,
+      0 0 40px #0fa,
+      0 0 45px #0fa,
+      0 0 50px #0fa,
+      0 0 75px #0fa;
+  
+  }
+}
+
+h2 {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+         text-shadow: 1px 1px green;
+         margin-left: 10px;
+         margin-bottom: -10px;
+    }
+
+    h3 {
+        display:block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+             text-shadow: 1px 1px green;
+   text-align: left;
+   margin-left: 10px;
+        }
+
+        h4 {
+            display:block;
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+                 text-shadow: 1px 1px green;
+       text-align: center;
+            }
+
+        h5 {
+            display:block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+             text-shadow: 1px 1px black;
+   text-align: center;
+        }
+
+        p {
+            text-align: justify;
+          color: black;
+          display: block;
+        font-size: 12px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .p2 {
+            text-align: justify;
+          color: black;
+          display: block;
+        font-size: 11px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .bibliografia {
+            text-align: left;
+          color: black;
+          display: block;
+        font-size: 11px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .a6 {
+          color: green;
+        font-size: 11px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        }
+
+        .a6:hover {
+            color: black;
+          font-size: 11px;
+          margin: 0;
+          font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          text-decoration: underline;
+          }
+
+        .p3 {
+            text-align: center;
+          color: green;
+          display: block;
+        font-size: 12px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        h7 {
+            position: relative;
+            text-align: center;
+          color: black;
+          display: block;
+        font-size: 12px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+
+
+        h7:hover {
+            top: -5px;
+            color: purple;
+            display:block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+             text-shadow: 1px 1px black;
+   text-align: center;
+        }
+
+    ul {
+            text-align: left;
+          color: #0025ed;
+          display: block;
+        font-size: 11px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        }
+
+        .grade {
+            height:auto;
+            display:flex;
+            flex-direction: column;
+            width: 520px;
+            margin: 0;
+        }
+
+        .grade2 {
+            height:auto;
+            display:flex;
+            flex-direction: row;
+            width: 760px;
+            margin: 0;
+        }
+
+        .grade3 {
+            height:auto;
+            display:flex;
+            flex-direction: row;
+            width: 255px;
+            margin: 0;
+        }
+
+        button {
+            margin:0;
+        }
+
+        
+
+        .container{
+            margin: 10px;
+            height: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+             border-style: solid;
+        }
+
+        .sub-container{
+            height: 200px;
+            width: 300px;
+            margin: 0;
+            display: container;
+            justify-content: center;
+            align-items: center;
+            border-style: solid;
+        }
+
+    .container-vertical{
+        margin: 10px;
+        height: 420px;
+        width: 750px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+         border-style: solid;
+    }
+
+    .container-verticaldiv{
+        height: 420px;
+        width: 350px;
+        display: container;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-instrucoes{
+        margin: 10px;
+        height: 420px;
+        width: 230px;
+      
+        justify-content: center;
+        align-items: center;
+         border-style: solid;
+    }
+
+    .rodape{
+        
+        display: block;
+        position: absolute;
+        width: 100%;
+        color: white;
+        height: auto;
+        background: #002e5d;
+        top: 700px;
+        height:100px; 
+        padding-left: 20px;
+        padding-bottom: 20px;
+
+        }
+
+        .icon{
+            height: 35px;
+            align-self: start;
+            vertical-align: middle;
+            cursor: pointer;
+            margin-right: 15px;
+        }
+        
